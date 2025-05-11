@@ -14,3 +14,25 @@ Remember, it's self-paced so feel free to take a break! ☕️
 
 &copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
 
+python google_drive_connect.pypip install google-api-python-client google-auth-httplib2 google-auth-oauthlibOracle.oracle-javaSERVICE_ACCOUNT_FILE = 'service_account_key.json'{
+          "name": "Launch Mergington WebApp",
+                "type": "debugpy",
+                      "request": "launch",
+                            "module": "uvicorn",
+                                  "args": [
+                                          "src.app:app",
+                                                  "--reload"
+                                                        ],
+                                                              "jinja": true
+                                                                  }                                                                {
+                                                                      "name": "Launch Mergington WebApp",
+                                                                      "type": "debugpy",
+                                                                      "request": "launch",
+                                                                      "module": "uvicorn",
+                                                                      "args": [
+                                                                        "src.app:app",
+                                                                        "--reload"
+                                                                      ],
+                                                                      "jinja": true
+                                                                    }
+}https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-explorer

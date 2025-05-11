@@ -5,7 +5,17 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Launch Chrome",
+       {
+      "name": "Launch Mergington WebApp",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "uvicorn",
+      "args": [
+        "src.app:app",
+        "--reload"
+      ],
+      "jinja": true
+    }   "name": "Launch Chrome",
       "request": "launch",
       "type": "chrome",
       "url": "http://localhost:8080",
@@ -31,3 +41,11 @@
     }
   ]
 }
+SCOPES = ['https://www.googleapis.com/auth/drive.readonly']results = service.files().list(pageSize=10, fields="nextPageToken, files(id, name)").execute()
+        items = results.get('files', [])
+
+           SERVICE_ACCOUNT_FILE = 'service_account_key.json'SCOPES = ['https://www.googleapis.com/auth/drive.readonly']https://www.googleapis.com/auth/drive.readonlypython google_drive_connect.py     if not items:
+                            print('Tidak ada file yang ditemukan.')
+                                    else:
+                                                for item in items:
+                                                                print(f"{item['name']} ({item['id']})")

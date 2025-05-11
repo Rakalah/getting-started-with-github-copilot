@@ -1,2 +1,10 @@
 fastapi
 uvicorn
+Google workspace
+account API
+lahubai235@gmail.com 
+
+
+gmail
+lahubai235@gmail.com 
+Google-account
